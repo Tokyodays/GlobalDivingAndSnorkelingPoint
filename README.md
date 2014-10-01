@@ -1,0 +1,2 @@
+GlobalDivingAndSnorkelingPoint
+==============================
