@@ -1,0 +1,12 @@
+{
+  "name": "データ取得",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["notifications", "http://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://www.padi.co.jp/*"],
+      "js": ["jquery-2.1.1.min.js", "myscript.js"]
+    }
+  ]
+}
